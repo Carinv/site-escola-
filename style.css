@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #091B3E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+
+.site{
+    background-image: linear-gradient(#091B3E,#95979C);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 30px;
+}
+
+.site-div-conteudo{
+    width: 30%;
+}
+
+
+.site-titulo{
+    padding: 24px 0;
+}
+
+.topicos{
+    padding: 24px 0;
+}
+.topicos-imagem{
+    width: 120px;
+}
+
+.topicos{
+    background-image: linear-gradient(#95979C, #091B3E);
+    padding: 0px 0;
+}
+
+
+.topicos-site{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.Site-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Topicos-site{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+
+.rodape{
+    background-color: #091B3E;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
